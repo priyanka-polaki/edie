@@ -251,6 +251,17 @@
     margin: 36px 0px 100px 3px;
     display: flex;
 }
+.design__option--main {
+    justify-content: space-between;
+}
+.design__option--2 {
+    display: none;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2d9cbd;
+    font-family: 'Poppins', sans-serif;
+    margin: 36px 0px 100px 3px;
+}
 .design__vector {
     margin-left: 12px;
 }
@@ -455,8 +466,8 @@
         margin: 194px 0px 12px 165px;
     }
     .design__image {
-        width: 470px;
-        height: 500px;
+        width: 100%;
+        height: auto;
     }
     .team__div {
         margin: 100px 55px;
@@ -471,5 +482,35 @@
     .login__div {
         display: flex;
         justify-content: space-between;
+        padding-right: 20px;
+    }
+    .design__images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .design__div--1 {
+        width: calc(50% - 36px);
+        margin-top: 188px;
+    }
+    .design__div--2 {
+        width: calc(50% - 36px);
+        margin-bottom: 188px;
+    }
+    .design__div--3 {
+        width: calc(50% - 36px);
+        margin-top: 105px;
+    }
+    .design__div--4 {
+        width: calc(50% - 36px);
+        margin-bottom: 105px;
+    }
+    .design__option--1 {
+        display: none;
+    }
+    .design__option--2 {
+        display: flex;
+        margin-left: 340px;
+        /* margin-right: 25px; */
     }
 }
